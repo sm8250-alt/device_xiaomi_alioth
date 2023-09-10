@@ -9,7 +9,6 @@ LOCAL_OVERRIDES_PACKAGES := \
     Chrome-Stub \
     Drive \
     GoogleCamera \
-    Maps \
     MyVerizonServices \
     OBDM_Permissions \
     FilesPrebuilt \
@@ -22,7 +21,6 @@ LOCAL_OVERRIDES_PACKAGES := \
     SafetyHubPrebuilt \
     ScribePrebuilt \
     Tycho \
-    Velvet \
     stk \
     Stk \
     Papers \
