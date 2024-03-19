@@ -26,7 +26,8 @@ TARGET_EXCLUDES_AUDIOFX := true
 # Use Scudo instead of Jemalloc
 PRODUCT_USE_SCUDO := true
 
-# Build Google Contacts Dialer &  Message in gapps package
+# Google Basic apps
+$(call inherit-product-if-exists, vendor/gapps/Android.mk)
 WITH_GMS := true
 
 TARGET_BOOT_ANIMATION_RES := 1440
