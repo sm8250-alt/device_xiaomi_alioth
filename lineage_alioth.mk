@@ -20,12 +20,11 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO F3
 
-# Boot animation
-MATRIXX_BUILD_TYPE := Private
-MATRIXX_MAINTAINER := Dark_Phoenix
-MATRIXX_CHIPSET := SD-870(5G)
-MATRIXX_BATTERY := 4520mAh
-MATRIXX_DISPLAY := 1080x2400
+# Nuke AudioFX
+TARGET_EXCLUDES_AUDIOFX := true
+
+# Use Scudo instead of Jemalloc
+PRODUCT_USE_SCUDO := true
 
 # Build Google Contacts Dialer &  Message in gapps package
 WITH_GMS := true
