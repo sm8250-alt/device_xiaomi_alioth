@@ -29,9 +29,6 @@ MATRIXX_DISPLAY := 1080x2400
 
 # Build Google Contacts Dialer &  Message in gapps package
 WITH_GMS := true
-BUILD_GOOGLE_CONTACTS := true
-BUILD_GOOGLE_DIALER := true
-BUILD_GOOGLE_MESSAGE := true
 
 TARGET_BOOT_ANIMATION_RES := 1440
 
