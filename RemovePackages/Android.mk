@@ -5,33 +5,37 @@ LOCAL_MODULE := RemovePackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
+    Chrome \
+    Chrome-Stub \
+    Drive \
     GoogleCamera \
-    DeskClock \
-    Gallery2 \
-    Auxio \
-    ViaBrowser \
-    AudioFX \
-    Aperture \
+    Maps \
     MyVerizonServices \
     OBDM_Permissions \
+    GoogleTTS \
+    Velvet \
+    MaestroPrebuilt \
+    AndroidAutoStubPrebuilt \
+    AndroidAutoStub \
+    talkback \
+    SafetyHubPrebuilt \
+    SoundAmplifierPrebuilt \
     obdm_stub \
     OemDmTrigger \
     OPScreenRecord \
     Ornament \
-    Videos \
-    Video \
     SafetyHubPrebuilt \
     ScribePrebuilt \
-    Tycho \
-    stk \
-    Stk \
-    Papers \
-    NgaResources \
     Showcase \
     Snap \
     MusicFX \
     SprintDM \
     SprintHM \
+    MatLog \
+    Jelly \
+    Eleven \
+    Aperture \
+    Glimpse \
     VZWAPNLib \
     VzwOmaTrigger \
     YouTube \
