@@ -27,7 +27,7 @@ TARGET_EXCLUDES_AUDIOFX := true
 PRODUCT_USE_SCUDO := true
 
 # Google Basic apps
-$(call inherit-product-if-exists, vendor/gapps/Android.mk)
+$(call inherit-product-if-exists, vendor/gapps/common/common-vendor.mk)
 WITH_GMS := true
 
 TARGET_BOOT_ANIMATION_RES := 1440
