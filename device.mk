@@ -67,7 +67,7 @@ PRODUCT_PACKAGES += \
     RemovePackages
 
 # Call the MiuiCamera setup
-$(call inherit-product-if-exists, vendor/xiaomi/alioth-miuicamera/products/miuicamera.mk)
+$(call inherit-product, vendor/xiaomi/alioth-miuicamera/products/miuicamera.mk)
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/alioth/alioth-vendor.mk)
